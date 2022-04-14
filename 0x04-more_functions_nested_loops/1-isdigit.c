@@ -1,5 +1,3 @@
-1-isdigit.c
-
 #include "main.h"
 /**
 *_isdigit - function that verifies if a  character is a digit or not
