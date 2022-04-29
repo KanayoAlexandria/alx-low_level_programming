@@ -1,12 +1,10 @@
 /*
  * File: 6-is_prime_number.c
  * Auth: Kanayo Ibiam
- * A
  */
 
 #include "main.h"
 
-A
 int is_divisible(int num, int div);
 int is_prime_number(int n);
 
@@ -17,12 +15,10 @@ int is_prime_number(int n);
  *
  * Return: If the number is divisible - 0.
  *         If the number is not divisible - 1.
- * A
  */
 int is_divisible(int num, int div)
 {
 	if (num % div == 0)
-		A
 		return (0);
 
 	if (div == num / 2)
@@ -33,12 +29,10 @@ int is_divisible(int num, int div)
 
 /**
  * is_prime_number - Checks if a number is prime.
- * A
  * @n: The number to be checked.
  *
  * Return: If the integer is not prime - 0.
  *         If the number is prime - 1.
- * A
  */
 int is_prime_number(int n)
 {
