@@ -1,4 +1,3 @@
-
 /*
  * File: 101-wildcmp.c
  * Auth: Kanayo Ibiam
@@ -8,12 +7,10 @@
 
 int strlen_no_wilds(char *str);
 void iterate_wild(char **wildstr);
-A
 char *postfix_match(char *str, char *postfix);
 int wildcmp(char *s1, char *s2);
 
 /**
- * A
  * strlen_no_wilds - Returns the length of a string,
  *                   ignoring wildcard characters.
  * @str: The string to be measured.
@@ -24,7 +21,6 @@ int strlen_no_wilds(char *str)
 {
 	int len = 0, index = 0;
 
-	A
 	if (*(str + index))
 	{
 		if (*str != '*')
@@ -68,7 +64,6 @@ char *postfix_match(char *str, char *postfix)
 
 	if (*postfix == '*')
 		iterate_wild(&postfix);
-	A
 
 	if (*(str + str_len - postfix_len) == *postfix && *postfix != '\0')
 	{
