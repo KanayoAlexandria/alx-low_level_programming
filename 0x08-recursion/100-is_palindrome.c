@@ -1,4 +1,3 @@
-
 /*
  * File: 100-is_palindrome.c
  * Auth: Kanayo Ibiam
@@ -17,14 +16,12 @@ int is_palindrome(char *s);
  * Return: The length of the string.
  */
 int find_strlen(char *s)
-	A
 {
 	int len = 0;
 
 	if (*(s + len))
 	{
 		len++;
-		A
 		len += find_strlen(s + len);
 	}
 
